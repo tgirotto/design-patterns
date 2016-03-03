@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c82bf5cd-5936-485c-badf-ff9d49414998" name="Default" comment="" />
+    <list default="true" id="c82bf5cd-5936-485c-badf-ff9d49414998" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/decorator/ScrollableWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/decorator/SimpleWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/decorator/Window.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/DecoratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="design-patterns.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,16 +31,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5424285">
       <split-first>
         <leaf>
-          <file leaf-file-name="PersistenceImplementor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/bridge/implementor/PersistenceImplementor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Persistence.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/bridge/Persistence.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +98,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CompositeTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CompositeTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/CompositeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28419453">
-                  <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -114,34 +110,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FileSystemPersistenceImplementor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/bridge/implementor/FileSystemPersistenceImplementor.java">
+          <file leaf-file-name="SimpleWindow.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/decorator/SimpleWindow.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+                  <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
                   <folding>
-                    <element signature="e#199#200#0" expanded="true" />
-                    <element signature="e#226#227#0" expanded="true" />
-                    <element signature="e#270#271#0" expanded="true" />
-                    <element signature="e#297#298#0" expanded="true" />
-                    <element signature="e#383#384#0" expanded="true" />
+                    <element signature="e#154#155#0" expanded="true" />
+                    <element signature="e#205#206#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DatabasePersistenceImplementor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/bridge/implementor/DatabasePersistenceImplementor.java">
+          <file leaf-file-name="ScrollableWindow.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/decorator/ScrollableWindow.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
                   <folding>
-                    <element signature="e#197#198#0" expanded="true" />
-                    <element signature="e#224#225#0" expanded="true" />
-                    <element signature="e#268#269#0" expanded="true" />
-                    <element signature="e#295#296#0" expanded="true" />
-                    <element signature="e#354#355#0" expanded="true" />
-                    <element signature="e#381#382#0" expanded="true" />
+                    <element signature="e#191#192#0" expanded="true" />
+                    <element signature="e#227#228#0" expanded="true" />
+                    <element signature="e#364#365#0" expanded="true" />
+                    <element signature="e#421#422#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DecoratorTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/DecoratorTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.36998853">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -154,7 +157,7 @@
           <file leaf-file-name="BridgeTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BridgeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.21960486">
+                <state vertical-scroll-proportion="0.33104238">
                   <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -171,9 +174,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -183,9 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/abstractFactory/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/abstractFactory/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/abstractFactory/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/abstractFactory/color/Color.java" />
         <option value="$PROJECT_DIR$/src/main/abstractFactory/color/Green.java" />
         <option value="$PROJECT_DIR$/src/main/abstractFactory/color/Red.java" />
@@ -233,6 +237,10 @@
         <option value="$PROJECT_DIR$/src/main/composite/Line.java" />
         <option value="$PROJECT_DIR$/src/main/composite/ComplexFigure.java" />
         <option value="$PROJECT_DIR$/test/CompositeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/decorator/Window.java" />
+        <option value="$PROJECT_DIR$/src/main/decorator/SimpleWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/decorator/ScrollableWindow.java" />
+        <option value="$PROJECT_DIR$/test/DecoratorTest.java" />
       </list>
     </option>
   </component>
@@ -247,7 +255,7 @@
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -342,7 +350,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="composite" />
+              <option name="myItemId" value="decorator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -856,13 +864,16 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c82bf5cd-5936-485c-badf-ff9d49414998" name="Default" comment="" />
       <created>1456976989103</created>
       <option name="number" value="Default" />
       <updated>1456976989103</updated>
-      <workItem from="1456976992406" duration="10487000" />
+      <workItem from="1456976992406" duration="11689000" />
     </task>
     <servers />
   </component>
@@ -887,7 +898,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10487000" />
+    <option name="totallyTimeSpent" value="11689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-361" width="2560" height="1440" extended-state="6" />
@@ -902,9 +913,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15289913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15289913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1172,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BridgeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21960486">
+        <state vertical-scroll-proportion="0.33104238">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1241,10 +1252,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/decorator/SimpleWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/decorator/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17525773">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/CompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28419453">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/decorator/ScrollableWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36998853">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
